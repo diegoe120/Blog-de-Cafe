@@ -81,7 +81,7 @@ img {
 
 .header {
     background-image: url(./assets/banner.webp);
-    height: 50rem;
+    height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -256,4 +256,31 @@ img {
 
 .curso:last-of-type {
     border: none;
+}
+
+/* entrada de Blog */
+
+.entradaBlog {
+    width: min(90%, 100rem);
+    margin: 0 auto;
+
+    img {
+        transition: transform 300ms ease-out;
+    }
+
+    img:hover {
+        transform: translate(0px, 0px) scale(1.1, 1.1);
+    }
+
+    p {
+        padding: 1rem 2rem;
+    }
+}
+
+/* contacto */
+.contacto-bg {
+    background-image: url(./assets/contacto.jpg);
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
