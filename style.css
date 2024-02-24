@@ -13,6 +13,7 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: #f7ecec;
 }
 
 *,
@@ -137,6 +138,13 @@ img {
 }
 
 /* Contenido principal */
+
+.blog {
+    h3 {
+        text-align: center;
+        font-weight: bold;
+    }
+}
 
 @media (min-width: 768px) {
     .contenido-principal {
@@ -285,7 +293,7 @@ img {
 
 /* contacto */
 .contacto-bg {
-    background-image: url(./assets/contacto.jpg);
+    background-image: url(./assets/contacto.webp);
     height: 30rem;
     background-size: cover;
     background-repeat: no-repeat;
